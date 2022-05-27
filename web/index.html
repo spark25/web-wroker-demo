@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Web Workers</title>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+	<header>
+		<h1>Web Workers</h1>
+		<nav>
+			<ul>
+				<li><a href="/">Home</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+
+		<p>
+			Let's explore Web Workers together.
+		</p>
+		<table>
+			<thead>
+				<tr>Fibonacci Numbers</tr>
+			</thead>
+			<thead>
+				<tr>
+					<th>Main Thread</th>
+					<th>Web Worker</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><button id="start-stop_main">Start</button></td>
+					<td><button id="star-stop_worker">Start</button></td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			<button id="incCount">Count++</button> 
+			Count: <span id="count">0</span>
+			<button id="resetCount">Reset Count</button>
+		</p>
+		<div id="fibs"></div>
+
+	</main>
+
+	<script src="/js/home.js"></script>
+</body>
+</html>
